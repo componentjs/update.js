@@ -45,7 +45,9 @@ describe('update', function () {
 
     var tree = yield* resolve(process.cwd());
 
-    yield* update(tree);
+    yield* update(tree, {
+      development: true
+    });
 
     var json = yield* read();
     assert(semver.gt(json.development.dependencies['component/emitter'], '1.0.1'));
