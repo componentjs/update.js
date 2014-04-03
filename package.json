@@ -1,0 +1,33 @@
+{
+  "name": "component-updater",
+  "description": "update pinned dependencies to the latest version",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "component/update.js",
+  "dependencies": {
+    "generator-supported": "~0.0.1",
+    "component-consoler": "^1.0.0",
+    "component-flatten": "^1.0.0",
+    "remotes": "^1.0.0",
+    "semver": "^2.2.1"
+  },
+  "devDependencies": {
+    "component-resolver": "^1.0.0",
+    "rimraf": "^2.2.5",
+    "mocha": "^1.17.0",
+    "should": "^3.0.0",
+    "gnode": "0",
+    "regenerator": "0",
+    "co": "^3"
+  },
+  "scripts": {
+    "test": "NODE=gnode make test",
+    "prepublish": "make clean build"
+  }
+}
