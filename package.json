@@ -1,7 +1,7 @@
 {
   "name": "component-updater",
   "description": "update pinned dependencies to the latest version",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
@@ -12,13 +12,13 @@
   "repository": "component/update.js",
   "dependencies": {
     "generator-supported": "~0.0.1",
-    "component-consoler": "^1.0.0",
-    "component-flatten": "^1.0.0",
-    "remotes": "^1.0.0",
+    "component-consoler": "^2.0.0",
+    "component-flatten": "^1.0.1",
+    "remotes": "^1.1.5",
     "semver": "^2.2.1"
   },
   "devDependencies": {
-    "component-resolver": "^1.0.0",
+    "component-resolver": "^1.2.1",
     "rimraf": "^2.2.5",
     "mocha": "^1.17.0",
     "should": "^3.0.0",
