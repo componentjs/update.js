@@ -1,7 +1,7 @@
 {
   "name": "component-updater",
   "description": "update pinned dependencies to the latest version",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
@@ -14,7 +14,7 @@
     "generator-supported": "~0.0.1",
     "component-consoler": "^2.0.0",
     "component-flatten": "^1.0.1",
-    "remotes": "^1.1.5",
+    "component-remotes": "^1.1.5",
     "semver": "^2.2.1"
   },
   "devDependencies": {
