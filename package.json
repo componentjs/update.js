@@ -15,7 +15,7 @@
     "component-consoler": "^2.0.0",
     "component-flatten": "^1.0.1",
     "component-remotes": "^1.1.5",
-    "semver": "^2.2.1"
+    "semver": "^6.3.0"
   },
   "devDependencies": {
     "component-resolver": "^1.2.1",
